@@ -19,7 +19,7 @@ const ChangePassword = () => {
         console.log(inputPassword);
 
         try {
-            const res = await axios.patch('http://localhost:4001/api/user/password-change', inputPassword
+            const res = await axios.patch('/api/user/password-change', inputPassword
                 , {
                     headers: {
                         Authorization: usrDetails.token

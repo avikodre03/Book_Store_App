@@ -23,6 +23,7 @@ function App() {
 
   return (
     <div className="dark:bg-slate-900 dark:text-white">
+{console.log(import.meta.env.VITE_PORT)}
 
       <Routes>
         <Route path="/" element={<Home />} />

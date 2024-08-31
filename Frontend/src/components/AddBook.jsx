@@ -21,7 +21,7 @@ const AddBook = () => {
         e.preventDefault();
         console.log("Product Details:", product);
         try {
-            const res = await axios.post('http://localhost:4001/api/book/addBook', product);
+            const res = await axios.post('/api/book/addBook', product);
             toast.success(res.data.message);
             setProduct({
                 name: "",

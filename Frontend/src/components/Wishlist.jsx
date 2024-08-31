@@ -15,7 +15,7 @@ console.log(wishlistBooks.length);
     useEffect(() => {
         const getWishlistBooks = async () => {
             try {
-                const res = await axios.get(`http://localhost:4001/api/user/${usrDetails._id}/wishlist`)
+                const res = await axios.get(`/api/user/${usrDetails._id}/wishlist`)
                 console.log(res.data.bookWishlist);
                 setwishlistBooks(res.data.bookWishlist)
 
@@ -28,7 +28,7 @@ console.log(wishlistBooks.length);
 
     const removeWishlistBook = async (bookId) => {
         try {
-            const res = await axios.delete(`http://localhost:4001/api/user/${usrDetails._id}/wishlist/${bookId}`)
+            const res = await axios.delete(`/api/user/${usrDetails._id}/wishlist/${bookId}`)
 
             setwishlistUpdate(!wishlistUpdate)
             toast.success(res.data.message)

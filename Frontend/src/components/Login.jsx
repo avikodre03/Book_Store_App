@@ -17,7 +17,7 @@ const Login = () => {
         e.preventDefault();
         console.log(inputValue);
         try {
-            const res = await axios.post('http://localhost:4001/api/user/login', inputValue)
+            const res = await axios.post('/api/user/login', inputValue)
             toast.success(res.data.message);
             setinputValue({
                 email: "",

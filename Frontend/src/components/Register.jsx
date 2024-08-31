@@ -20,7 +20,7 @@ const Register = () => {
         setinputValue(inputValue)
 
         try {
-            const res = await axios.post('http://localhost:4001/api/user/register', inputValue)
+            const res = await axios.post('/api/user/register', inputValue)
 
             toast.success(res.data.message);
 

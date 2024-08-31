@@ -21,7 +21,7 @@ export const My_Provider_fun = ({ children }) => {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("http://localhost:4001/api/book")
+        const res = await axios.get("/api/book")
         console.log(res.data.bookList);
         setbook(res.data.bookList)
       } catch (error) {
@@ -30,9 +30,10 @@ export const My_Provider_fun = ({ children }) => {
     }
     getBook();
   }, [authUser])
+  
   const handleSearch = async () => {
     try {
-      const res = await axios.get(`http://localhost:4001/api/book/search?search=${searchInput}`)
+      const res = await axios.get(`/api/book/search?search=${searchInput}`)
       console.log(res.data);
       setsearchBookList(res.data.booksList)
       navigate("/searchedBooks")
@@ -47,7 +48,7 @@ const handleAddWishlist= async(e,bookId)=>{
   e.stopPropagation(); 
   
 try {
-  const res=await axios.post(`http://localhost:4001/api/user/${usrDetails._id}/wishlist`,{
+  const res=await axios.post(`/api/user/${usrDetails._id}/wishlist`,{
     bookId: bookId
   })
   console.log(res.data);
