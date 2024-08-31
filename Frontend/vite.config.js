@@ -11,7 +11,7 @@ export default defineConfig({
     port: 5000,
     proxy: {
       '/api': {
-        target: import.meta.env.VITE_API_TARGET, 
+        target: "https://book-store-app-ychd.onrender.com", 
         changeOrigin: true,
         secure: false
       }
