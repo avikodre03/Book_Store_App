@@ -11,7 +11,7 @@ A comprehensive Book Store application built using the MERN stack (MongoDB, Expr
 - [Installation](#installation)
 - [Backend API](#backend-api)
 - [Contributing](#contributing)
-- [Contact Information: ](#Contact-Information)
+- [Contact Information](#Contact-Information)
 
 ## Features
 
@@ -21,7 +21,7 @@ A comprehensive Book Store application built using the MERN stack (MongoDB, Expr
   - Change Password
 - **Books Management:**
   - View List of Books
-  - Search Books by Title or Author
+  - Search Books by Title or Name of book
   - Add New Books
   - View Details of a Particular Book
 - **Wishlist Management:**
@@ -33,7 +33,7 @@ A comprehensive Book Store application built using the MERN stack (MongoDB, Expr
 ## Pages
 
 - **Home:** Overview of the Book Store.
-- **Courses:** A section for courses related to books.
+- **Courses:** A section for courses related to paid books.
 - **Contact:** Page to contact the Book Store team.
 - **About:** Information about the Book Store and its mission.
 
