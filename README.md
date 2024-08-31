@@ -11,7 +11,7 @@ A comprehensive Book Store application built using the MERN stack (MongoDB, Expr
 - [Installation](#installation)
 - [Backend API](#backend-api)
 - [Contributing](#contributing)
-- [License](#license)
+- [Contact Information: ](#Contact-Information)
 
 ## Features
 
@@ -106,7 +106,7 @@ Check out the live version of the project : [Book Store Live](https://book-store
 ## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.
 
-## Contact
+## Contact Information: 
 
 If you have any questions or inquiries, please feel free to contact the project owner:
 
