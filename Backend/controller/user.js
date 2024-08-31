@@ -1,7 +1,8 @@
 const userModel = require("../model/user.model");
 const bcrypt = require('bcrypt');
 const jwt =require("jsonwebtoken");
-
+const dotenv = require('dotenv');
+dotenv.config()
 
 const register = async (req, res) => {
 
@@ -53,7 +54,7 @@ const login = async (req, res) => {
         }
         const isMatch = await bcrypt.compare(password, existingUser.password);
 
-        const token = jwt.sign({_id:existingUser._id},"avi",{
+        const token = jwt.sign({_id:existingUser._id},process.env.JWT_SECRETE_KEY,{
             expiresIn:"1h",
         });
 

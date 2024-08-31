@@ -1,5 +1,8 @@
 const User = require("../model/user.model");
 const jwt = require("jsonwebtoken");
+const dotenv = require('dotenv');
+dotenv.config()
+
 
 const auth = async (req, res, next) => {
     try {
@@ -10,7 +13,7 @@ const auth = async (req, res, next) => {
             return res.status(401).json({ message: "No token provided, authorization denied." });
         }
         // Verify the token
-        const decoded = jwt.verify(token, "avi");
+        const decoded = jwt.verify(token, process.env.JWT_SECRETE_KEY);
         if (!decoded || !decoded._id) {
             return res.status(401).json({ message: "Token is not valid." });
         }
