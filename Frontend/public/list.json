@@ -1,0 +1,142 @@
+[
+    {
+        "name": "mystery novel",
+        "title": "Unveiling the Shadows: A Gripping Tale",
+        "price": 12.99,
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "cookbook",
+        "title": "Mastering the Art of French Cooking",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "self-help book",
+        "title": "The Power of Habit: Change Your Life",
+        "price": 9.99,
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "science fiction",
+        "title": "Galactic Odyssey: Journey to the Stars",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "children's story",
+        "title": "Adventures in the Enchanted Forest",
+        "price": 5.49,
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "fantasy novel",
+        "title": "Dragon's Realm: Chronicles of the Last Kingdom",
+        "price": 14.99,
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "travel guide",
+        "title": "Exploring the Wonders of the World",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "historical fiction",
+        "title": "Echoes of the Past: A Journey Through Time",
+        "price": 10.99,
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "biography",
+        "title": "The Life and Times of a Legend",
+        "price": 8.49,
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "romance novel",
+        "title": "Love in the Time of Destiny",
+        "price": 6.99,
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "horror story",
+        "title": "Nightmare in the Haunted Mansion",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "philosophy book",
+        "title": "The Search for Meaning: A Philosophical Journey",
+        "price": 7.49,
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "poetry collection",
+        "title": "Whispers of the Soul: A Collection of Poems",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "business guide",
+        "title": "Entrepreneurship 101: Building Your Empire",
+        "price": 11.99,
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "comic book",
+        "title": "Superhero Chronicles: The Rise of Justice",
+        "price": 4.99,
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "travel memoir",
+        "title": "Journeys of the Heart: A Traveler's Tales",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "science book",
+        "title": "The Wonders of the Universe: Exploring the Cosmos",
+        "price": 13.49,
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "psychology book",
+        "title": "The Human Mind: Unlocking the Secrets of Thought",
+        "price": 9.99,
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "historical biography",
+        "title": "The Rise and Fall of an Empire: Story",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    },
+    {
+        "name": "classic literature",
+        "title": "The Great Expectations: A Timeless Masterpiece",
+        "price": 7.99,
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1724231018~exp=1724234618~hmac=ddcd303fc3590501bafc526338b7d78acf4b4093243fa5517db8ff58dd4e722a&w=740"
+    }
+]
