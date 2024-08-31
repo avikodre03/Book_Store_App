@@ -61,7 +61,7 @@ To get a local copy of the project up and running, follow these steps.
 
 ### 1. Clone the repository:
    ```bash
-   git clone https://github.com/avikodre03/book-store.git
+   git clone https://github.com/avikodre03/Book_Store_App.git
    cd book-store
    ```
 ### 2. Install dependencies:
