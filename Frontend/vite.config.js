@@ -1,17 +1,16 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import dotenv from 'dotenv'
+import { port, target } from './importEnv'
 
-dotenv.config()
 
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
     host: '0.0.0.0',
-    port: 5000,
+    port: port,
     proxy: {
       '/api': {
-        target: "https://book-store-app-ychd.onrender.com", 
+        target: target, 
         changeOrigin: true,
         secure: false
       }

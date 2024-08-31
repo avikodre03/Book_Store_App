@@ -1,12 +1,12 @@
 import React from 'react';
-import contactImg from '../../public/contactUs.png';
+import img from '../../public/ContactImg.png'
 import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
     <div className='w-full flex flex-col md:flex-row md:h-screen sm:h-max bg-slate-900 text-white'>
       <div className='md:w-1/2 w-full flex justify-center items-center p-4'>
-        <img src={contactImg} alt="contactIMG" className='w-3/4 md:w-5/6' />
+        <img src={img} alt="contactIMG" className='w-3/4 md:w-5/6' />
       </div>
 
       <div className='md:w-1/2 w-full flex flex-col justify-center p-4 md:p-8'>
