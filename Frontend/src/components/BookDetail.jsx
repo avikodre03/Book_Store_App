@@ -65,7 +65,7 @@ const BookDetail = () => {
                     <h1 className='font-bold text-2xl md:text-3xl text-blue-400 my-2'>{bookDetail.name}</h1>
                     <h2 className='font-semibold text-lg md:text-xl text-[#97d8b2]'>{bookDetail.title}</h2>
                     <h3 className='text-[#62AB37] text-base md:text-lg mt-3'>- Description :</h3>
-                    <p className='text-white'>{bookDetail.description}</p>
+                    <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos labore fuga necessitatibus nulla repellat, culpa totam distinctio enim vel nostrum?</p>
                     <p className='font-semibold text-red-500 text-lg md:text-xl mt-4'>{bookDetail.category}</p>
                     <p className='my-2 text-[#F4F4F8] text-xl md:text-2xl'>$ {bookDetail.price}</p>
                     <div className='flex w-full mt-4'>
