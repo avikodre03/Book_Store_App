@@ -10,6 +10,7 @@ A comprehensive Book Store application built using the MERN stack (MongoDB, Expr
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Backend API](#backend-api)
+- [Live Demo](#Live-Demo)
 - [Contributing](#contributing)
 - [Contact Information](#Contact-Information)
 
