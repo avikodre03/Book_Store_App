@@ -7,6 +7,8 @@ import toast from 'react-hot-toast';
 
 const BookDetail = () => {
     const { id } = useParams();
+    console.log("id",id);
+    
     const [bookDetail, setbookDetail] = useState({});
     const { handleAddWishlist, authUser } = useContext(myContext);
 

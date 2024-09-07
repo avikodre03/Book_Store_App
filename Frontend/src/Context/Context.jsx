@@ -22,9 +22,12 @@ export const My_Provider_fun = ({ children }) => {
     const getBook = async () => {
       try {
         const res = await axios.get("/api/book")
-        console.log(res.data.bookList);
+       
+        console.log("done");
+        // console.log(res.data)
         setbook(res.data.bookList)
       } catch (error) {
+        // console.log("bye");
         console.log(error);
       }
     }
