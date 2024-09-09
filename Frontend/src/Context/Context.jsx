@@ -27,8 +27,8 @@ export const My_Provider_fun = ({ children }) => {
         // console.log(res.data)
         setbook(res.data.bookList)
       } catch (error) {
-        // console.log("bye");
-        console.log(error);
+        console.log("Error message:", error);
+       
       }
     }
     getBook();
