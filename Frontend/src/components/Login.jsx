@@ -15,7 +15,6 @@ const Login = () => {
 
     const handleLogin = async (e) => {
         e.preventDefault();
-        console.log(inputValue);
         try {
             const res = await axios.post('/api/user/login', inputValue)
             toast.success(res.data.message);
